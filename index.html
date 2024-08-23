@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8 " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinterio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="img/smart-home.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="">
+    <header class="container m-auto">
+      <nav>
+        <div
+          class="navbar bg-base-100 flex justify-between items-center w-[92%] mx-auto"
+        >
+          <div class="navbar-start">
+            <div
+              class="bg-[#ABEF5F] rounded-full text-center p-1 h-[32px] w-[32px]"
+            >
+              <i class="fa-solid fa-arrow-down-long -rotate-[140deg]"></i>
+            </div>
+            <a class="text-2xl ml-1 font-extrabold manrope">Rinterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex mr-20">
+            <ul
+              class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-10 font-bold"
+            >
+              <li>
+                <a class="manrope hover:text-black text-black">Home</a>
+              </li>
+              <li>
+                <a class="manrope hover:text-black text-gray-500">Services</a>
+              </li>
+              <li>
+                <a class="manrope hover:text-black text-gray-500">Portfolio</a>
+              </li>
+              <li>
+                <a class="manrope hover:text-black text-gray-500">Services</a>
+              </li>
+              <li>
+                <a class="manrope hover:text-black text-gray-500">Blogs</a>
+              </li>
+              <li>
+                <a class="manrope hover:text-black text-gray-500">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navbar-end">
+            <div
+              class="border hover:bg-[#ffe2e2] rounded-full h-12 w-12 md:block hidden text-center mr-3 m-auto"
+            >
+              <i><img class="m-auto p-3" src="img/search.png" alt="" /></i>
+            </div>
+
+            <div class="md:block hidden">
+              <div
+                class="border hover:bg-[#ffe2e2] rounded-full h-12 w-12 text-center mr-3 m-auto"
+              >
+                <i
+                  ><img
+                    class="m-auto p-3"
+                    src="img/shopping-cart (1).png"
+                    alt=""
+                /></i>
+              </div>
+            </div>
+            <div class="flex items-center gap-6">
+              <div class="hidden md:block">
+                <button
+                  class="bg-[#ABEF5F] md:static flex items-center tex justify-evenly text-center text-xl font-bold rounded-full manrope h-14 w-52 hover:bg-gray-500 hover:text-white"
+                >
+                  Book Consult
+                  <div
+                    class="bg-[#000000] rounded-full text-center h-[32px] w-[32px]"
+                  >
+                    <i
+                      class="fa-solid fa-arrow-down-long -rotate-[140deg] text-lg text-white"
+                    ></i>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="dropdown lg:hidden">
+            <div
+              tabindex="0"
+              role="button"
+              class="border w-10 h-10 text-center hover:bg-slate-400 py-1 rounded-full"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block h-5 w-5 stroke-current"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 right-10 rounded-box z-[1] mt-3 w-52 p-2 shadow flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-10 font-bold"
+            >
+              <li>
+                <a class="manrope hover:text-gray-500">Home</a>
+              </li>
+              <li>
+                <a class="manrope hover:text-gray-500">Services</a>
+              </li>
+              <li>
+                <a class="manrope hover:text-gray-500">Portfolio</a>
+              </li>
+              <li>
+                <a class="manrope hover:text-gray-500">Services</a>
+              </li>
+              <li>
+                <a class="manrope hover:text-gray-500">Blogs</a>
+              </li>
+              <li>
+                <a class="manrope hover:text-gray-500">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- 1st sectoin -->
+
+      <section class="items-center container m-auto">
+        <img class="m-auto lg:w-auto w-[216px]" src="image/banner.png" alt="" />
+
+        <div class="text-center items-center mx-auto">
+          <h1
+            class="font-extrabold text-[#212121] text-3xl md:text-7xl lg:px-28 py-5 manrope"
+          >
+            A barn house of this design has a striking appearance
+          </h1>
+          <p
+            class="text-base font-medium px-1 md:px-72 py-5 text-[#494949] md:py-10 manrope"
+          >
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </p>
+          <button
+            class="bg-[#acef5f80] m-auto md:static flex items-center tex justify-center md:justify-evenly text-center text-xl font-bold rounded-full manrope h-14 md:w-52 w-[95%] hover:bg-gray-500 hover:text-white"
+          >
+            View Details
+            <div
+              class="bg-[#ABEF5F] md:ml-0 ml-2 rounded-full text-center h-[32px] w-[32px]"
+            >
+              <i
+                class="fa-solid fa-arrow-down-long -rotate-[140deg] text-sm text-black"
+              ></i>
+            </div>
+          </button>
+        </div>
+      </section>
+      <!-- 2nd section -->
+      <section class="  bg-[#1e1e1e0e] my-10">
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-3 p-4 container m-auto">
+          <div>
+            <div class="text-center ">
+              <img class="absolute md:left-24 md:bottom-20 md:block hidden" src="img/Vector.png" alt="" />
+              <button class="manrope bg-white rounded-3xl  text-base font-bold p-1"><i class="fa-solid fa-arrow-down-long -rotate-[90deg] mx-2  text-lg text-black"></i>About us</button>
+            </div>
+            <div>
+              <h2 class="manrope md:text-4xl  text-2xl md:text-left text-center font-bold">
+                We design thoughtful, liveable spaces
+              </h2>
+              <p class="md:text-left text-center mt-4 manrope text-sm font-medium text-gray-500 leading-7	tracking-wide	 ">
+                The barn house captivates with its blend of rustic charm and
+                modern sophistication, featuring weathered wood, sleek metal
+                accents.
+              </p>
+            </div>
+
+            <div class="card bg-white card-side md:p-3 p-1  mt-10">
+              <figure>
+                <img class="md:ml-0 ml-2" src="img/commercial.png" alt="Movie" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title ">Commercial</h2>
+                <p class=" manrope text-base font-medium text-gray-500  ">
+                  The barn house captivates with its blend <br> of rustic charm and
+                  modern.
+                </p>
+              </div>
+            </div>
+            <div class="card bg-white card-side md:p-3 p-1  mt-10">
+              <figure>
+                <img class="md:ml-0 ml-2" src="img/residential.png" alt="Movie" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Residential</h2>
+                <p class=" manrope text-base font-medium text-gray-500  ">
+                  The barn house captivates with its blend <br> of rustic charm and
+                  modern.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="m-auto">
+           
+              <img src="img/Rectangle.png" alt="" />
+            
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
